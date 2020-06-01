@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+
+#home {
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: url("img/a\ \(3\).png") no-repeat 0 0;
+}
+
+
+
+#next {
+    width: 43px;
+    height: 44px;
+    background: url("img/aaaaaa.png") -91px 0;
+}
+
+#prev {
+    width: 43px;
+    height: 44px;
+    background: url("img/a\ \(5\).png") -47px  0;
+}
+
+
+
+/*
+#home {
+    width: 46px;
+    height: 44px;
+    background: url("img/a\ \(3\).png") 0 0;
+}
+
+
+#next {
+    width: 43px;
+    height: 44px;
+    background: url("img/aaaaaa.png") 0 0;
+}
+
+*/

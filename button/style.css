@@ -1,0 +1,242 @@
+   
+
+Shadow button Shadow on hover
+
+Normal button Disabled button
+Group Buttons
+ButtonButtonButtonButton
+
+
+Animated Button
+Hover
+
+
+Animated Button Ripple-effect
+Click Me
+
+
+Animated Button Pressed effect
+Click Me
+
+
+CloseBottomLeft / RightReset
+Live CSS Editor
+input{
+padding: 1em 2em;
+border: none;
+font: 1em sans-serif;
+transition: .5s ease-in;
+}
+
+.button1 {
+background: #4acf50;
+color: #fff;
+}
+
+
+.button1:hover {
+border: 1px solid green;
+background: transparent;
+color: green;
+
+}
+
+.button2 {
+background: tomato;
+color: #fff;
+border-radius: 5px;
+}
+
+.button2:hover {
+border: 1px solid tomato;
+background: transparent;
+color: tomato;
+}
+
+.button3 {
+background: transparent;
+border: 1px solid tomato;
+color: tomato;
+}
+
+.button3:hover {
+background: tomato;
+color: white;
+}
+
+
+
+.button4 {
+background: transparent;
+border: 1px solid green;
+color: green;
+border-radius: 5px;
+}
+
+.button4:hover {
+background: green;
+color: white;
+}
+
+button {
+width: 250px;
+padding: 14px 36px;
+font-size: 18px;
+}
+
+.sub-btn1 {
+background: green;
+color: white;
+border: none;
+box-shadow: 0 5px 12px rgba(0,0,0,.5);
+}
+
+.sub-btn2 {
+background: green;
+color: white;
+border: none;
+}
+
+.sub-btn2:hover {
+box-shadow: 0 5px 14px rgba(0,0,0,.5);
+}
+
+.sub-btn3 {
+background: green;
+color: white;
+border: none;
+}
+
+.sub-btn4 {
+background: green;
+color: white;
+border: none;
+opacity: .6;
+cursor: not-allowed;
+}
+
+button.button {
+width: 150px;
+background: maroon;
+color: white;
+border: none; 
+margin: 0;
+float: left;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+}
+
+.button:hover {
+background: #ab4747;
+border-left: 1px solid white; 
+}
+
+
+
+ .animated-button {
+background: #ab4;
+width: 100px;
+padding: 12px 16px;
+color: white;
+border: none;
+border-radius: 5px;
+text-align: center;
+cursor: pointer;
+transition: all .5s;
+display: inline-block;
+}
+
+.animated-button span {
+display: inline-block;
+position: relative;
+transition: .5s;
+} 
+
+.animated-button span::after {
+content: ">>";
+position: absolute;
+top: 2px;
+right: -26px;
+opacity: 0;
+}
+
+ .animated-button:hover span {
+padding-right: 26px;
+}
+
+.animated-button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+.ripple-effect {
+width: 200px;
+border-radius: 4px;
+border: none;
+background: #4caf50;
+color: white;
+cursor: pointer;
+padding: 20px;
+font-size: 1.5em;
+overflow: hidden;
+position: relative;
+}
+
+.ripple-effect::after {
+content: "";
+display: block;
+background: #90ee90;
+position: absolute;
+padding-top: 300%;
+padding-left: 350%;
+margin-left: -20px !important;
+margin-top: -120%;
+opacity: 0;
+transition: all 0.8s;
+
+}
+
+
+
+.ripple-effect:active:after {
+padding: 0;
+margin: 0;
+opacity: 1;
+transition: 0s;
+}
+
+
+.pressed-effect {
+width: 150px;
+background: blue;
+color: white;
+font-size: 1.5em;
+outline: none;
+border: none;
+cursor: pointer;
+padding: 20px;
+text-align: center;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.pressed-effect:hover {
+background: slateblue;
+}
+
+.pressed-effect:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translatey(4px)
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+div {
+    margin: 35px auto;
+    width: 250px;
+    height: 250px;
+    background-color: #4acf50;
+}
+
+.border-radius {
+    border-radius: 30px 50px/ 15px 30px ;
+    -webkit-border-radius: 30px 50px/ 15px 30px ;
+    -moz-border-radius: 30px 50px/ 15px 30px ;
+    -ms-border-radius: 30px 50px/ 15px 30px ;
+    -o-border-radius: 30px 50px/ 15px 30px ;
+}
+
+.circle {
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+} 
+
+.lemon {
+    background: yellow;
+    border-radius: 15px 150px 30px 150px;
+    -webkit-border-radius: 15px 150px 30px 150px;
+    -moz-border-radius: 15px 150px 30px 150px;
+    -ms-border-radius: 15px 150px 30px 150px;
+    -o-border-radius: 15px 150px 30px 150px;
+}
+
+
+.ellipsis {
+    width: 400px;
+    height: 300px;
+    background: yellowgreen;
+    border-radius: 50%;
+    25p-webkit-border-radius: 25px;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}

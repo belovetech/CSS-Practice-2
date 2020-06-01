@@ -1,0 +1,17 @@
+/*=======================
+ICONS
+========================*/
+@font-face {
+    font-family: 'IcoMoon';
+    src: url('../icons/IcoMoon-Free.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[data-icon]::before {
+    
+    font-family: 'IcoMoon';
+    content: attr(data-icon);
+    color: black;
+    margin-right: 10px;
+}

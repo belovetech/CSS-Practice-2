@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: indianred;
+}
+
+/* Dropdown
+===========================*/
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    top: 150px;
+}
+
+.dropbtn1 {
+    background: green;
+}
+
+.dropbtn1,
+.dropdown-content1 {
+    color: white;
+    padding: .5em 1em;
+    font-size: 1.1em;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .3);
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    background: seagreen;
+    z-index: 100;
+    box-shadow: 0px 6px 10px 0px black;
+    opacity: 0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -ms-transition: opacity 2s;
+    -o-transition: opacity 2s;
+}
+
+.dropdown1 .dropdown-content1::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid;
+    border-color: green transparent transparent transparent;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown1:hover .dropbtn1 {
+    background: rgb(71, 202, 128);
+    border: 1px solid black;
+    color: black;
+}
+
+/* Dropdown Menu list
+===========================*/
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.dropbtn {
+    background: chocolate;
+    color: white;
+    padding: .5em 3em;
+   
+}
+
+.dropbtn,
+.dropdown-content {
+    font-size: 1.1em;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -ms-transition: .4s ease;
+    -o-transition: .4s ease;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    right: 0px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, .2);
+    background: rgb(255, 255, 255);
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+.dropdown .dropdown-content::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 50%;
+    margin-right: -10px;
+    border: 10px solid;
+    border-color: transparent transparent black transparent;
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
+
+.dropdown-content a:last-child {
+    border: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown-content a:hover  {
+    background: rgb(221, 218, 218);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-bottom: 1px solid rgb(15, 15, 15)
+}
+
+.dropdown:hover .dropbtn {
+    background: black;
+    color:  white;
+}

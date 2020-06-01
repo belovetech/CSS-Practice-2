@@ -1,0 +1,42 @@
+
+body {
+    background: #f0fcff url("img/bg.png") repeat-x 100% -460px;
+    background-size: 780px;
+}
+
+.boat {
+    width: 380px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    }
+    
+    .boat img {
+    width: 100%;
+    }
+    
+    .boat::after {
+    content: "";
+    display: block;
+    background: url("img/steam.png") no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -12%;
+    left: 12%;
+    opacity: 0;
+    }
+    
+    
+    .mike {
+    width: 180px;
+    position: absolute;
+    top: 55%;
+    left: -15%;
+    -webkit-transform: rotateZ(-5deg);
+    }
+    
+
+    
+    
